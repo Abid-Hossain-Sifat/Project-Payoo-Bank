@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo | Login</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+
+    <!-- linked item -->
+
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind + Daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link end here -->
+
+    <style>
+        * {
+            font-family: Outfit;
+        }
+    </style>
+
+</head>
+
+<body class="min-h-screen max-w-md bg-base-200 mx-auto">
+    <section id="Login-page">
+        <div id="logo" class="max-w-[250px] mx-auto pt-[210px]">
+            <img src="./assets/Logo-full.png" alt="">
+        </div>
+        <div id="form" class="pt-8">
+            <div class="card bg-base-100 w-full max-w-[400px] shrink-0 shadow mx-auto rounded-3xl">
+                <div class="card-body p-8">
+                    <fieldset class="fieldset">
+                        <label class="label text-[16px] font-medium text-[#080808]">Mobile Number</label>
+                        <input maxlength="11" type="text" class="input rounded-full bg-base-200" placeholder="Enter your number" />
+                        <label class="label text-[16px] font-medium text-[#080808] mt-4">4 Digit Pin</label>
+                        <input maxlength="4" type="password" class="input rounded-full bg-base-200" placeholder="Enter your 4 Digit Pin" />
+                        <button class="btn btn-primary  px-3.5 py-5 rounded-full mt-4">
+                            <p class="text-[20px] font-semibold text-[#FFFFFF]">Login</p>
+                        </button>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./sript/login.js"></script>
+</body>
+
+</html>
