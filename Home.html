@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo | Home</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+
+    <!-- linked item -->
+
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind + Daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link end here -->
+
+    <style>
+        * {
+            font-family: Outfit;
+        }
+    </style>
+
+</head>
+
+<body class="min-h-screen max-w-md bg-base-200 mx-auto">
+    <header class="border-b-2 border-[#08080810] bg-white">
+        <section class="w-11/12 mx-auto flex justify-between items-center py-2.5">
+            <div class="left flex gap-2">
+                <div class="logo w-[60px]">
+                    <img src="./assets/logo.png" alt="">
+                </div>
+                <div class="Balance info">
+                    <h2 class="Balance text-[18px] font-extrabold">
+                        $ 4500
+                    </h2>
+                    <p class="text-[14px] text-[#08080850]">
+                        Available Balance
+                    </p>
+                </div>
+            </div>
+
+            <div class="right">
+                <a href="./index.html" class="btn btn-soft">
+                    <p><i class="fa-solid fa-arrow-right-from-bracket rotate-180"></i></p>
+                    <p>Logout</p>
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <!-- Banner  -->
+    <Section class="pt-8 bg-white rounded-b-xl">
+        <div class="py-6 w-11/12 mx-auto">
+            <h1 class="text-2xl leading-7.5 font-bold mb-3">
+                Welcome to Pay<span class="text-primary">oo</span>
+            </h1>
+            <p class="text-[16px] leading-6.5 text-[#08080850]">
+                Enjoy easy and convenient financial services with us. Cashout charge is low and
+            </p>
+            <div class="Buttons grid grid-cols-3 gap-1 items-center mt-6">
+                <button class="btn flex-col h-full py-4 btn-primary btn-soft rounded-xl">
+                    <img src="./assets/opt-1.png" alt="">
+                    <p>Add Money</p>
+                </button>
+                <button class="btn flex-col h-full py-4 btn-primary btn-soft rounded-xl">
+                    <img src="./assets/opt-2.png" alt="">
+                    <p>Cashout</p>
+                </button>
+                <button class="btn flex-col h-full py-4 btn-primary btn-soft rounded-xl">
+                    <img src="./assets/opt-3.png" alt="">
+                    <p>Transfer Money</p>
+                </button>
+                <button class="btn flex-col h-full py-4 btn-primary btn-soft rounded-xl">
+                    <img src="./assets/opt-4.png" alt="">
+                    <p>Get Bonus</p>
+                </button>
+                <button class="btn flex-col h-full py-4 btn-primary btn-soft rounded-xl">
+                    <img src="./assets/opt-5.png" alt="">
+                    <p>Pay Bill</p>
+                </button>
+                <button class="btn flex-col h-full py-4 btn-primary btn-soft rounded-xl">
+                    <img src="./assets/opt-6.png" alt="">
+                    <p>Transaction</p>
+                </button>
+            </div>
+        </div>
+    </Section>
+
+    <!-- history  -->
+     <!-- <section id="Cashout" class="w-11/12 mx-auto py-5">
+        <h2 class="text-xl font-bold">
+            Cashout
+        </h2>
+     </section> -->
+</body>
+
+</html>
